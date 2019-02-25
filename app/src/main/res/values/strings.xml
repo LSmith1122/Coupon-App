@@ -1,0 +1,28 @@
+<!--
+  ~
+  ~ Created by Lloyd Smith on 2/24/19 7:34 PM.
+  ~ Copyright (c) 2019. All rights reserved.
+  ~ Last modified 2/24/19 7:33 PM.
+  -->
+
+<resources>
+    <string name="app_name">MeijerApp</string>
+    <string name="app_label">Coupons</string>
+    <string name="button_clip">CLIP</string>
+    <string name="example_coupon_expiration_description">Coupon Expiration Description</string>
+    <string name="example_coupon_description">Coupon Description</string>
+    <string name="example_coupon_title">Coupon Title</string>
+    <string name="button_unclip">UNCLIP</string>
+
+    // Tab Titles
+    <string name="available">Available</string>
+    <string name="clipped">Clipped</string>
+    <string name="no_coupons">No Coupons</string>
+    <string name="total">Total</string>
+    <string name="coupon_image">Coupon Image</string>
+
+    <array name="tab_titles">
+        <item>@string/available</item>
+        <item>@string/clipped</item>
+    </array>
+</resources>

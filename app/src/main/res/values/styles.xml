@@ -1,0 +1,18 @@
+<!--
+  ~
+  ~ Created by Lloyd Smith on 2/24/19 7:34 PM.
+  ~ Copyright (c) 2019. All rights reserved.
+  ~ Last modified 2/24/19 7:29 PM.
+  -->
+
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+</resources>

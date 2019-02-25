@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~
+  ~ Created by Lloyd Smith on 2/24/19 7:34 PM.
+  ~ Copyright (c) 2019. All rights reserved.
+  ~ Last modified 2/24/19 7:29 PM.
+  -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.ClippedCouponFragment">
+
+    <TextView
+        android:id="@+id/coupon_amount_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="4dp"
+        android:background="@color/couponAmountBackground"
+        android:text="@string/no_coupons"
+        android:elevation="4dp"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/coupon_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

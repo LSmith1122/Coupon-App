@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~
+  ~ Created by Lloyd Smith on 2/24/19 7:34 PM.
+  ~ Copyright (c) 2019. All rights reserved.
+  ~ Last modified 2/24/19 7:29 PM.
+  -->
+
+<resources>
+    <dimen name="coupon_viewholder_image_size">100dp</dimen>
+</resources>

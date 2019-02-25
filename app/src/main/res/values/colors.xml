@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~
+  ~ Created by Lloyd Smith on 2/24/19 7:34 PM.
+  ~ Copyright (c) 2019. All rights reserved.
+  ~ Last modified 2/24/19 7:29 PM.
+  -->
+
+<resources>
+    <color name="colorPrimary">#1A4E92</color>
+    <color name="colorPrimaryDark">#15417c</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="tabSelected">#FFFFFF</color>
+    <color name="tabUnselected">#7599C9</color>
+    <color name="couponAmountBackground">#CCCCCC</color>
+    <color name="textNormal">#000000</color>
+    <color name="textLight">#A0A0A0</color>
+    <color name="couponRecyclerViewBackground">#EAEAEA</color>
+</resources>
