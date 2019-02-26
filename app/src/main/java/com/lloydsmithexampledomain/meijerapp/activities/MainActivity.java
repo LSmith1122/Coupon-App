@@ -1,8 +1,8 @@
 /*
  *
- * Created by Lloyd Smith on 2/24/19 7:34 PM.
+ * Created by Lloyd Smith on 2/25/19 10:04 PM.
  * Copyright (c) 2019. All rights reserved.
- * Last modified 2/24/19 7:29 PM.
+ * Last modified 2/25/19 9:58 PM.
  */
 
 package com.lloydsmithexampledomain.meijerapp.activities;
@@ -111,8 +111,8 @@ public class MainActivity extends AppCompatActivity
         pagerAdapter = new CustomPagerAdapter(fragmentManager, this);
         viewPager.setAdapter(pagerAdapter);
         tabLayout.setTabTextColors(
-                getResources().getColor(R.color.tabUnselected),
-                getResources().getColor(R.color.tabSelected));
+                getResources().getColor(R.color.tabUnselected, null),
+                getResources().getColor(R.color.tabSelected, null));
         tabLayout.setupWithViewPager(viewPager);
     }
 
@@ -181,11 +181,11 @@ public class MainActivity extends AppCompatActivity
     @Override
     public void onError() {
         AlertDialog alertDialog = new AlertDialog.Builder(this).create();
-        alertDialog.setMessage("An unexpected error occurred. Please try again later.");
+        alertDialog.setMessage(getString(R.string.unexpected_error_occurred));
         alertDialog.setCancelable(true);
         alertDialog.setButton(
                 Dialog.BUTTON_NEUTRAL,
-                "Close",
+                getString(R.string.close),
                 new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {

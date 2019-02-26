@@ -1,8 +1,8 @@
 /*
  *
- * Created by Lloyd Smith on 2/24/19 7:34 PM.
+ * Created by Lloyd Smith on 2/25/19 10:04 PM.
  * Copyright (c) 2019. All rights reserved.
- * Last modified 2/24/19 7:29 PM.
+ * Last modified 2/25/19 7:32 AM.
  */
 
 apply plugin: 'com.android.application'
@@ -17,7 +17,7 @@ ext {
 android {
     compileSdkVersion 27
     defaultConfig {
-        applicationId "com.lloydsmithexampledomain.meijerapp"
+        applicationId "com.lloydsmithexampledomain.couponapp"
         minSdkVersion 23
         targetSdkVersion 27
         versionCode 1
@@ -28,6 +28,11 @@ android {
         release {
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    testOptions {
+        unitTests {
+            includeAndroidResources = true
         }
     }
 }
@@ -44,6 +49,9 @@ dependencies {
     // Mockito
     testImplementation "org.mockito:mockito-core:$mockito"
     androidTestImplementation "org.mockito:mockito-android:$mockito"
+
+    // Robolectric
+    testImplementation 'org.robolectric:robolectric:3.8'
 
     // Gson
     implementation 'com.google.code.gson:gson:2.8.5'
